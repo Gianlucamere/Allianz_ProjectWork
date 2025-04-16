@@ -1,0 +1,160 @@
+/* Imposta il font e il colore di sfondo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Stile dell'intestazione della pagina */
+header {
+    background-color: #005aa7; /* Blu Allianz */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Stile per il titolo all'interno dell'intestazione */
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Stile della barra di navigazione */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #003f73;
+    padding: 10px 0;
+}
+
+/* Stile dei link nella barra di navigazione */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+/* Effetto hover sui link di navigazione */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sezione introduttiva (Hero Section) */
+.hero {
+    background-color: #e5f2ff;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Titolo della sezione hero */
+.hero h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+/* Testo della sezione hero */
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Bottone di Call-To-Action */
+.cta {
+    margin-top: 20px;
+}
+
+/* Stile del bottone */
+.cta a {
+    background-color: #005aa7;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Effetto hover sul bottone */
+.cta a:hover {
+    background-color: #003f73;
+}
+
+/* Contenitore principale per i report */
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Stile di ogni report nella lista */
+.report {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Titolo del report */
+.report h3 {
+    margin: 0 0 10px;
+}
+
+/* Descrizione del report */
+.report p {
+    margin: 0 0 10px;
+}
+
+/* Link per il download del report */
+.report a {
+    color: #005aa7;
+    text-decoration: none;
+}
+
+/* Effetto hover sul link di download */
+.report a:hover {
+    text-decoration: underline;
+}
+
+/* Stile del footer */
+footer {
+    background-color: #005aa7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+/* Testo del footer */
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Testo intro */
+.intro {
+    margin-bottom: 2rem;
+    background-color: #e6f2ff;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #0072ce;
+}
+
+/* testo green */
+.green-projects {
+    margin-bottom: 2rem;
+    background-color: #e8f5e9;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #388e3c;
+}
+
+/* Stile responsivo per dispositivi mobili */
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+}
